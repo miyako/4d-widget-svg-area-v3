@@ -38,6 +38,8 @@ $event:=NEditor_Form_event ("Editor")
 $event:=NEditor_Form_event ("Editor")
 ```
 
+8. フォームを実行すると，早速，エディターを使用することができます。
+
 詳細は下記のドキュメントをご覧ください。
 
 [デザインリファレンス > 4Dコンポーネントの開発とインストール > 
