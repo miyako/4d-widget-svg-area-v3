@@ -172,11 +172,11 @@ rotate|REAL|角度（標準: ``0``）
 
 ```
 NEditor_SET_IMAGE (area;image)
-image:=NEditor_Get_image (area)
+image:=NEditor_Get_image (area{;removeAnnotation})
 ```
 
 Parameter|Type|Description
 ------------|------------|----
 area|TEXT|エディターのオブジェクト名
 image|PICTURE|ドキュメント
-
+removeAnnotation|BOOLEAN|注釈を除去する（標準: ``False``）
