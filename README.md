@@ -187,3 +187,21 @@ removeAnnotation|BOOLEAN|注釈を除去する（標準: ``False``）
 
 * オブジェクトの選択状態は解除されています。
 * 画像はウィンドウではなく，元画像のサイズでレンダリングされます。
+
+例題
+
+```
+If (Form event=On Clicked)
+
+  $path:=System folder(Desktop)
+  $formats:=".png;.jpg;.gif;.bmp;.tif;"+Choose(Folder separator=":";".pdf;.exr;";".emf;.xps;")
+  $fileName:=Select document($path;$formats;"";Package open|File name entry)
+
+  If (OK=1)
+    $image:=NEditor_Get_image ("Editor")
+    WRITE PICTURE FILE(DOCUMENT;$image)
+    OPEN WEB URL(DOCUMENT)
+  End if 
+
+End if 
+```
