@@ -45,7 +45,7 @@ $event:=NEditor_Form_event ("Editor")
 [デザインリファレンス > 4Dコンポーネントの開発とインストール > 
 コンポーネントのインストールと互換性](http://doc.4d.com/4Dv16/4D/16/Component-installation-and-compatibility.300-3048906.ja.html)
 
-## エディター基本操作
+## エディターの基本操作
 
 エディターを起動した直後は，自由線ツールが選択されています。
 
