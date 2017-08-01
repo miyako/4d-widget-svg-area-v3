@@ -195,13 +195,31 @@ mode|LONGINT|書き出しモード
 * エディター上の選択状態は解除されています。
 * 元画像が元のサイズで収まる四角形でエクスポートされます。
 
-ブラウザ等でも開くことができますが，``svg:textArea``をサポートしていないアプリケーションではテキストがレンダリングされません。回避するためには，``WRITE PICTURE FILE``や``CONVERT PICTURE``などで``PNG``形式に変換することができます。macOSであれば``PDF``に変換することもできます。
+``WRITE PICTURE FILE``や``CONVERT PICTURE``で一般的な``PNG``形式などに変換することを想定しています。
 
 ``2``
 
 元画像だけを取り出します。
 
-例題
+インポートの例題
+
+```
+If (Form event=On Clicked)
+
+  $path:=System folder(Desktop)+"test.svg"
+  $formats:=".svg;.png;.jpg;.gif;.bmp;.tif;"+Choose(Folder separator=":";".pdf;.exr;";".emf;.xps;")
+  $fileName:=Select document($path;$formats;"";Package open)
+
+  If (OK=1)
+    C_PICTURE($image)
+    READ PICTURE FILE(DOCUMENT;$image)
+    NEditor_SET_IMAGE ("Editor";$image)
+  End if 
+
+End if 
+```
+
+エクスポートの例題
 
 ```
 If (Form event=On Clicked)
@@ -218,7 +236,3 @@ If (Form event=On Clicked)
 
 End if 
 ```
-
-フォームを開いた直後からエディター上で注釈を描画することができます。フォームを開いた時点でのエリアサイズがドキュメントのサイズになります。エディター上ではエリア全体（ズーム率``1``を基準）に注釈を描画することができますが，ドキュメントのサイズ外にあるものは，画像を書き出したときに表示されません。
-
-エディターに一般的な画像（エディター以外で作成したもの）をセットすると，それまで表示されていた画像と注釈が消去されます。また，その時点でのエリアサイズがドキュメントのサイズになります。したがって，同じ画像であっても，エリアを拡大してからセットすれば，おおきく表示されます。その後，ウィンドウをリサイズしても画像の表示サイズは変わりません。画像データは元のサイズで保存されるので，表示・印刷のクオリティは一定ですが，おおきく表示された画像に加えられた注釈は相対的に小さくレンダリングされることになります。
