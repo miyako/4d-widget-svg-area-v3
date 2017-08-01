@@ -6,7 +6,7 @@
 
 1. ストラクチャをデザインモードで開き，エクスプローラーの「メソッド > コンポーネントメソッド」リストに「annotation」が表示されれば，インストールは成功です。
 
-![1](https://user-images.githubusercontent.com/1725068/28804621-61663c2a-769f-11e7-8657-2ce3c8d73bd1.png)
+<img src="https://user-images.githubusercontent.com/1725068/28804621-61663c2a-769f-11e7-8657-2ce3c8d73bd1.png" width="200" />
 
 詳細は下記のドキュメントをご覧ください。
 
