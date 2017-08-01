@@ -180,3 +180,5 @@ Parameter|Type|Description
 area|TEXT|エディターのオブジェクト名
 image|PICTURE|ドキュメント
 removeAnnotation|BOOLEAN|注釈を除去する（標準: ``False``）
+
+画像は，``SVG``にエディター固有の情報（``editor``名前空間）が埋め込まれたものが返されます。ピクチャなので，そのままフィールドに表示したり，データベースに保存することができます。ブラウザ等でも開くことができますが，``svg:textArea``をサポートしていないアプリケーションではテキストがレンダリングされません。回避するためには，``WRITE PICTURE FILE``や``CONVERT PICTURE``などで``PNG``形式に変換することができます。macOSであれば``PDF``に変換することもできます。
