@@ -48,7 +48,7 @@ $event:=NEditor_Form_event ("Editor")
 [デザインリファレンス > 4Dコンポーネントの開発とインストール > 
 コンポーネントのインストールと互換性](http://doc.4d.com/4Dv16/4D/16/Component-installation-and-compatibility.300-3048906.ja.html)
 
-## エディターの基本操作
+## エディターの操作
 
 エディターを起動した直後は，自由線ツールが選択されています。
 
@@ -134,3 +134,49 @@ $event:=NEditor_Form_event ("Editor")
 **注記**: フォントファミリーの中には，特定のスタイルをサポートしていないものもあります（特にイタリック体）。
 
 ---
+
+## プログラミングの操作
+
+下記のプロジェクトメソッドは「共有」設定が有効にされており，ホスト側のアプリケーションから呼び出すことができます。
+
+* ``NEditor_SET_ZOOM``
+* ``NEditor_Get_zoom``
+* ``NEditor_SET_ROTATE``
+* ``NEditor_Get_rotate``
+* ``NEditor_SET_IMAGE``
+* ``NEditor_Get_image``
+
+**注記**: 以下のプロジェクトメソッドは内部的な制御のために「共有」設定が有効にされていますが，フォームメソッド・オブジェクトメソッド以外の場面において単独で使用されることは想定されていません。
+
+* ``NEditor_Form_event``
+
+```
+NEditor_SET_ZOOM (area;zoom)
+zoom:=NEditor_Get_zoom (area)
+```
+
+Parameter|Type|Description
+------------|------------|----
+area|TEXT|エディターのオブジェクト名
+zoom|REAL|倍率（標準: ``1``）
+
+```
+NEditor_SET_ROTATE (area;rotate)
+rotate:=NEditor_Get_rotate (area)
+```
+
+Parameter|Type|Description
+------------|------------|----
+area|TEXT|エディターのオブジェクト名
+rotate|REAL|角度（標準: ``0``）
+
+```
+NEditor_SET_IMAGE (area;image)
+image:=NEditor_Get_image (area)
+```
+
+Parameter|Type|Description
+------------|------------|----
+area|TEXT|エディターのオブジェクト名
+image|PICTURE|ドキュメント
+
