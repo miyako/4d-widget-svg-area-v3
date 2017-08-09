@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Repair" name="HOST" structure="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:HOST.4DB" data="" os="Mac OS X (10.11.6)">
+<start_timer time="2017-07-18T14:12:54+09:00"/>
+<step title="メンテナンスモードでデータベースを開いています">
+</step>
+<step title="修復">
+	<step title="自動シーケンス番号定義を圧縮中">
+	</step>
+	<step title="データテーブルをロード中">
+		<step title="データテーブルヘッダーを圧縮中">
+		</step>
+	</step>
+	<step title="テーブル Resources のBLOBを圧縮中">
+	</step>
+	<step title="テーブル Resources のレコードを圧縮中">
+	</step>
+	<step title="テーブル [Table#0] のBLOBを圧縮中">
+	</step>
+	<step title="テーブル [Table#0] のレコードを圧縮中">
+	</step>
+	<step title="検査処理リソースの初期化">
+	</step>
+	<step title="データベースメソッドを検査">
+	</step>
+	<step title="トリガーメソッドを検査">
+	</step>
+	<step title="プロジェクトメソッドを検査">
+		<info>0 project methods</info>
+	</step>
+	<step title="プロジェクトフォームを検査">
+		<step title="Form1">
+			<step title="Form1.Page1.Button0 ()">
+				<info>Form1.Page1.Button0 () : 8 lines</info>
+			</step>
+			<step title="Form1.Page1.Button2 ()">
+				<info>Form1.Page1.Button2 () : 5 lines</info>
+			</step>
+			<step title="Form1.Page1.Button3 ()">
+				<info>Form1.Page1.Button3 () : 5 lines</info>
+			</step>
+			<step title="Form1.Page1.Button4 ()">
+				<info>Form1.Page1.Button4 () : 5 lines</info>
+			</step>
+			<step title="Form1.Page1.Button5 ()">
+				<info>Form1.Page1.Button5 () : 5 lines</info>
+			</step>
+			<step title="Form1.Page1.Button8 ()">
+				<info>Form1.Page1.Button8 () : 5 lines</info>
+			</step>
+			<step title="Form1.Page1.Editor">
+				<info>Form1.Page1.Editor : 1 lines</info>
+			</step>
+		</step>
+		<step title="(Editor)">
+			<step title="(Editor)">
+				<info>(Editor) : 47 lines</info>
+			</step>
+			<step title="(Editor).Page1.ToolSelect ()">
+				<info>(Editor).Page1.ToolSelect () : 7 lines</info>
+			</step>
+			<step title="(Editor).Page1.SelectButton ()">
+				<info>(Editor).Page1.SelectButton () : 21 lines</info>
+			</step>
+			<step title="(Editor).Page1.Rewind ()">
+				<info>(Editor).Page1.Rewind () : 1 lines</info>
+			</step>
+			<step title="(Editor).Page1.Debug_HistoryList">
+				<info>(Editor).Page1.Debug_HistoryList : 10 lines</info>
+			</step>
+			<step title="(Editor).Page1.Forward ()">
+				<info>(Editor).Page1.Forward () : 1 lines</info>
+			</step>
+			<step title="(Editor).Page1.Back ()">
+				<info>(Editor).Page1.Back () : 11 lines</info>
+			</step>
+			<step title="(Editor).Page1.Delete ()">
+				<info>(Editor).Page1.Delete () : 11 lines</info>
+			</step>
+			<step title="(Editor).Page1.All ()">
+				<info>(Editor).Page1.All () : 11 lines</info>
+			</step>
+			<step title="(Editor).Page1.FillColorIcon ()">
+				<info>(Editor).Page1.FillColorIcon () : 26 lines</info>
+			</step>
+			<step title="(Editor).Page1.StrokeColorIcon ()">
+				<info>(Editor).Page1.StrokeColorIcon () : 26 lines</info>
+			</step>
+			<step title="(Editor).Page1.AlignLeft ()">
+				<info>(Editor).Page1.AlignLeft () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.AlignRight ()">
+				<info>(Editor).Page1.AlignRight () : 37 lines</info>
+			</step>
+			<step title="(Editor).Page1.AlignTop ()">
+				<info>(Editor).Page1.AlignTop () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.AlignBottom ()">
+				<info>(Editor).Page1.AlignBottom () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveBackMost ()">
+				<info>(Editor).Page1.MoveBackMost () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveBack ()">
+				<info>(Editor).Page1.MoveBack () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveFront ()">
+				<info>(Editor).Page1.MoveFront () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveFrontMost ()">
+				<info>(Editor).Page1.MoveFrontMost () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.AlignVertical ()">
+				<info>(Editor).Page1.AlignVertical () : 37 lines</info>
+			</step>
+			<step title="(Editor).Page1.AlignHorizontal ()">
+				<info>(Editor).Page1.AlignHorizontal () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.DistributeHorizontal ()">
+				<info>(Editor).Page1.DistributeHorizontal () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.DistributeVertical ()">
+				<info>(Editor).Page1.DistributeVertical () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.Copy ()">
+				<info>(Editor).Page1.Copy () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.Paste ()">
+				<info>(Editor).Page1.Paste () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.Cut ()">
+				<info>(Editor).Page1.Cut () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.StrokeWidthIcon ()">
+				<info>(Editor).Page1.StrokeWidthIcon () : 37 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveUp ()">
+				<info>(Editor).Page1.MoveUp () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveUpStep ()">
+				<info>(Editor).Page1.MoveUpStep () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveDown ()">
+				<info>(Editor).Page1.MoveDown () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveDownStep ()">
+				<info>(Editor).Page1.MoveDownStep () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveLeft ()">
+				<info>(Editor).Page1.MoveLeft () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveLeftStep ()">
+				<info>(Editor).Page1.MoveLeftStep () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveRightStep ()">
+				<info>(Editor).Page1.MoveRightStep () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.MoveRight ()">
+				<info>(Editor).Page1.MoveRight () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.FillOpacityIcon ()">
+				<info>(Editor).Page1.FillOpacityIcon () : 37 lines</info>
+			</step>
+			<step title="(Editor).Page1.StrokeOpacityIcon ()">
+				<info>(Editor).Page1.StrokeOpacityIcon () : 37 lines</info>
+			</step>
+			<step title="(Editor).Page1.GrowLeftStep ()">
+				<info>(Editor).Page1.GrowLeftStep () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.GrowRightStep ()">
+				<info>(Editor).Page1.GrowRightStep () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.GrowUpStep ()">
+				<info>(Editor).Page1.GrowUpStep () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.GrowDowntep ()">
+				<info>(Editor).Page1.GrowDowntep () : 3 lines</info>
+			</step>
+			<step title="(Editor).Page1.Italic ()">
+				<info>(Editor).Page1.Italic () : 18 lines</info>
+			</step>
+			<step title="(Editor).Page1.Bold ()">
+				<info>(Editor).Page1.Bold () : 18 lines</info>
+			</step>
+			<step title="(Editor).Page1.Underline ()">
+				<info>(Editor).Page1.Underline () : 18 lines</info>
+			</step>
+			<step title="(Editor).Page1.Duplicate ()">
+				<info>(Editor).Page1.Duplicate () : 8 lines</info>
+			</step>
+			<step title="(Editor).Page1.New ()">
+				<info>(Editor).Page1.New () : 2 lines</info>
+			</step>
+			<step title="(Editor).Page1.Mask ()">
+				<info>(Editor).Page1.Mask () : 8 lines</info>
+			</step>
+			<step title="(Editor).Page1.Image ()">
+				<info>(Editor).Page1.Image () : 20 lines</info>
+			</step>
+			<step title="(Editor).Page1.ToolEllipse ()">
+				<info>(Editor).Page1.ToolEllipse () : 7 lines</info>
+			</step>
+			<step title="(Editor).Page1.ToolRect ()">
+				<info>(Editor).Page1.ToolRect () : 7 lines</info>
+			</step>
+			<step title="(Editor).Page1.ToolLine ()">
+				<info>(Editor).Page1.ToolLine () : 7 lines</info>
+			</step>
+			<step title="(Editor).Page1.ToolText ()">
+				<info>(Editor).Page1.ToolText () : 7 lines</info>
+			</step>
+			<step title="(Editor).Page1.ToolPolyline ()">
+				<info>(Editor).Page1.ToolPolyline () : 7 lines</info>
+			</step>
+			<step title="(Editor).Page1.TextEdit ()">
+				<info>(Editor).Page1.TextEdit () : 76 lines</info>
+			</step>
+		</step>
+		<info>2 project forms</info>
+	</step>
+	<step title="テーブルフォームを検査">
+		<info>0 table forms</info>
+	</step>
+	<step title="ユーザー＆グループ情報を検査">
+	</step>
+	<step title="ヘルプTipsを検査">
+	</step>
+	<step title="エクスプローラーのフォルダーを検査">
+		<step title="ゴミ箱">
+		</step>
+		<step title="デフォルトフォルダー">
+		</step>
+		<step title="デフォルトテーブル">
+		</step>
+		<step title="デフォルトフォーム">
+		</step>
+		<step title="デフォルトプロジェクトメソッド">
+		</step>
+	</step>
+	<step title="メニューバーとメニューを検査">
+	</step>
+	<step title="Check Lists">
+	</step>
+	<step title="リンクのないメソッドを検査">
+	</step>
+	<step title="元のファイルを移動">
+<move from="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:HOST.4DB" to="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:Replaced Files (Repairing) 2017-07-18 14-12-54:HOST.4DB">
+</move>	</step>
+	<step title="新しいファイルを元の場所に移動">
+<move from="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:Replaced Files (Repairing) 2017-07-18 14-12-54:_HOST_compacted.4DB" to="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:HOST.4DB">
+</move>	</step>
+	<step title="元のインデックスを移動">
+<move from="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:HOST.4DIndy" to="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:Replaced Files (Repairing) 2017-07-18 14-12-54:HOST.4DIndy">
+</move>	</step>
+	<step title="新しいインデックスファイルを元の場所に移動">
+<move from="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:Replaced Files (Repairing) 2017-07-18 14-12-54:_HOST_compacted.4DIndy" to="Macintosh HD:Users:miyako:Desktop:project-isshin-svg:HOST.4dbase:HOST.4DIndy">
+</move>	</step>
+</step>
+<stop_timer time="2017-07-18T14:12:55+09:00" success="true" user_canceled="false"/>
+</verifylog>

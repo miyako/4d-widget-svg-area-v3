@@ -117,11 +117,27 @@
 </trans-unit>
 
 <trans-unit resname="fill">
-<target>背景色</target>
+	<target>背景色</target>
+</trans-unit>
+
+<trans-unit resname="fill...">
+<target>背景色…</target>
 </trans-unit>
 
 <trans-unit resname="stroke">
 <target>描画色</target>
+</trans-unit>
+
+<trans-unit resname="stroke...">
+	<target>描画色…</target>
+</trans-unit>
+
+<trans-unit resname="stroke combo">
+	<target>描画</target>
+</trans-unit>
+
+<trans-unit resname="fill combo">
+	<target>背景</target>
 </trans-unit>
 
 <trans-unit resname="move frontmost">
