@@ -9,6 +9,6 @@
   viewport-fill="#FF00FF"
   viewport-fill-opacity="0">
   
-	<line id="line" transform="translate(2,4)" x1="0" y1="8" x2="20" y2="8" shape-rendering="crispEdges" stroke="#000000" stroke-width="3" stroke-opacity="1" editor:stroke="#000000" editor:stroke-width="3" editor:stroke-opacity="1" editor:stroke-index="0"/>
+	<line id="line" transform="translate(2,3.5)" x1="0" y1="8" x2="20" y2="8" stroke="#000000" stroke-width="3" stroke-opacity="1" editor:stroke="#000000" editor:stroke-width="3" editor:stroke-opacity="1" editor:stroke-index="0"/>
 
 </svg>
