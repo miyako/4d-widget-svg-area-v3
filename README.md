@@ -234,7 +234,7 @@ visible|BOOLEAN|必要に応じてスクロールバーを表示する（標準:
 
 ```
 NEditor_SET_IMAGE (area;image)
-image:=NEditor_Get_image (area{;removeAnnotation})
+image:=NEditor_Get_image (area{;mode})
 ```
 
 Parameter|Type|Description
