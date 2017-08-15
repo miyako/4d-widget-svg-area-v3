@@ -10,14 +10,14 @@
   viewport-fill-opacity="0">
 
   <ellipse id="ellipse-shadow"
-    transform="translate(4,4)"
+    transform="translate(3,3.5)"
     cx="10" cy="10"
     rx="9"
     ry="7"
     fill="none"
-    stroke="#CCCCCC"
+    stroke="#C71585"
     stroke-width="2"
-    stroke-opacity="1"
+    stroke-opacity="0.3"
     />
 
 	<ellipse id="ellipse"

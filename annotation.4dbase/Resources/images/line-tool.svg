@@ -10,15 +10,15 @@
   viewport-fill-opacity="0">
 
   <line id="line-shadow"
-    transform="translate(4,4)"
+    transform="translate(3,3)"
     x1="1"
     y1="6"
     x2="19"
     y2="15"
     fill="none"
-    stroke="#CCCCCC"
+    stroke="#7B68EE"
     stroke-width="2"
-    stroke-opacity="1"
+    stroke-opacity="0.3"
     />
 
 	<line id="line"

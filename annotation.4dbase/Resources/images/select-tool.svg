@@ -14,8 +14,9 @@
     id="select"
     d="M7,2l12,11.2l-5.8,0.5l3.3,7.3l-2.2,1l-3.2-7.4L7,18.5V2"
     stroke="none"
-    fill="#CCCCCC" />
-    
+    fill-opacity="0.3"
+    fill="#1E90FF" />
+
 	<path
     transform="translate(3,3) scale(0.75,0.75)"
     id="select"
