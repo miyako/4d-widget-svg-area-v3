@@ -21,8 +21,8 @@
 
 フォームのプロパティは下記のように設定してください。
 
-* 最小幅: ``600``以上
-* 最小高さ: ``200``以上
+* 最小幅: ``Editor (annotation)``の幅
+* 最小高さ: ``Editor (annotation)``の高さ
 * イベント: ``On Load``, ``On Unload``, ``On Resize``, ``On Outside Call``
 
 その他のプロパティは自由に設定することができます。
