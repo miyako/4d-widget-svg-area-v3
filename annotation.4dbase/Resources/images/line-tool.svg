@@ -9,7 +9,8 @@
   viewport-fill="#FF00FF"
   viewport-fill-opacity="0">
 
-  <line id="line-shadow"
+  <line
+    id="line-shadow"
     transform="translate(3,3)"
     x1="1"
     y1="6"
@@ -21,7 +22,8 @@
     stroke-opacity="0.3"
     />
 
-	<line id="line"
+	<line
+    id="line"
     transform="translate(2,2)"
     x1="1"
     y1="6"

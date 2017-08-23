@@ -566,6 +566,10 @@
 	<target>なし</target>
 </trans-unit>
 
+<trans-unit resname="default-text">
+	<target>新規テキスト</target>
+</trans-unit>
+
 </group>
 </body>
 </file>
