@@ -1,0 +1,1 @@
+$event:=NEditor_Form_event(OBJECT Get name:C1087(Object current:K67:2))

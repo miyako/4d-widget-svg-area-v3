@@ -1,0 +1,257 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onActivate",
+		"onDeactivate",
+		"onUnload",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 222,
+					"height": 31,
+					"sizingX": "grow",
+					"fill": "automatic",
+					"stroke": "transparent"
+				}
+			}
+		},
+		{
+			"objects": {
+				"FrameRight": {
+					"type": "picture",
+					"top": 1,
+					"left": 192,
+					"width": 30,
+					"height": 30,
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/images/FrameRight.png"
+				},
+				"FrameMiddle": {
+					"type": "picture",
+					"top": 1,
+					"left": 32,
+					"width": 160,
+					"height": 30,
+					"sizingX": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/images/FrameMiddle.png"
+				},
+				"FrameLeft": {
+					"type": "picture",
+					"top": 1,
+					"left": 2,
+					"width": 30,
+					"height": 30,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/images/FrameLeft.png"
+				},
+				"Glass": {
+					"type": "button",
+					"top": 5,
+					"left": 10,
+					"width": 16,
+					"height": 23,
+					"focusable": false,
+					"icon": "/RESOURCES/images/Glass.png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "custom",
+					"method": "ObjectMethods/Glass.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ClearButton": {
+					"type": "button",
+					"top": 5,
+					"left": 198,
+					"width": 16,
+					"height": 23,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"focusable": false,
+					"icon": "/RESOURCES/images/ClearButton.png",
+					"iconFrames": 4,
+					"textPlacement": "right",
+					"style": "custom",
+					"method": "ObjectMethods/ClearButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"HistoryBox": {
+					"type": "listbox",
+					"top": 28,
+					"left": 3,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"resizingMode": "legacy",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "ＭＳ Ｐゴシック",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"events": [
+						"onLoad",
+						"onUnload"
+					],
+					"columns": [
+						{
+							"name": "History",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "ＭＳ Ｐゴシック",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "HistoryHeader",
+								"text": "History",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "ＭＳ Ｐゴシック",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "ＭＳ Ｐゴシック",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"HistoryGlass": {
+					"type": "input",
+					"top": 26,
+					"left": 3,
+					"width": 0,
+					"height": 0,
+					"fontFamily": "System Font Regular",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad"
+					]
+				},
+				"FocusRingLeft": {
+					"type": "picture",
+					"top": 1,
+					"left": 2,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/images/FocusRingLeft.png"
+				},
+				"FocusRingRight": {
+					"type": "picture",
+					"top": 1,
+					"left": 192,
+					"width": 30,
+					"height": 30,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/images/FocusRingRight.png"
+				},
+				"FocusRingMiddle": {
+					"type": "picture",
+					"top": 1,
+					"left": 32,
+					"width": 160,
+					"height": 30,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/images/FocusRingMiddle.png"
+				},
+				"SearchText": {
+					"type": "input",
+					"top": 8,
+					"left": 27,
+					"width": 170,
+					"height": 16,
+					"sizingX": "grow",
+					"class": "default",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"multiline": "no",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/SearchText.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onAfterEdit"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "ビュー 1",
+		"defaultView": "ビュー 1",
+		"views": {
+			"ビュー 1": {},
+			"ビュー 2": {},
+			"ビュー 3": {},
+			"ビュー 4": {},
+			"ビュー 5": {},
+			"ビュー 6": {},
+			"ビュー 7": {},
+			"ビュー 8": {},
+			"ビュー 9": {}
+		}
+	}
+}

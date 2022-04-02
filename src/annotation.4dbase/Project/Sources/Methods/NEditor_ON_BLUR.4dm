@@ -1,0 +1,30 @@
+//%attributes = {"invisible":true}
+$menu:=Get menu bar reference:C979
+ENABLE MENU ITEM:C149($menu; -1)
+
+OBJECT SET VISIBLE:C603(*; "Rewind"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Forward"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Delete"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Back"; False:C215)
+OBJECT SET VISIBLE:C603(*; "All"; False:C215)
+
+OBJECT SET VISIBLE:C603(*; "MoveLeft@"; False:C215)
+OBJECT SET VISIBLE:C603(*; "MoveRight@"; False:C215)
+OBJECT SET VISIBLE:C603(*; "MoveUp@"; False:C215)
+OBJECT SET VISIBLE:C603(*; "MoveDown@"; False:C215)
+
+OBJECT SET VISIBLE:C603(*; "GrowLeft@"; False:C215)
+OBJECT SET VISIBLE:C603(*; "GrowRight@"; False:C215)
+OBJECT SET VISIBLE:C603(*; "GrowUp@"; False:C215)
+OBJECT SET VISIBLE:C603(*; "GrowDown@"; False:C215)
+
+OBJECT SET VISIBLE:C603(*; "Copy"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Paste"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Cut"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Duplicate"; False:C215)
+
+OBJECT SET VISIBLE:C603(*; "Italic"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Bold"; False:C215)
+OBJECT SET VISIBLE:C603(*; "Underline"; False:C215)
+
+CALL SUBFORM CONTAINER:C1086(-111)

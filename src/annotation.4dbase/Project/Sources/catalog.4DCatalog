@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="annotation" uuid="18F8F36846FF460D9C1F342BCD5C441C" collation_locale="ja" consider_only_dead_chars_for_keywords="true">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra package_name="annotation" structure_file_name="annotation" data_file_path=":annotation.4DD" __stringCompHash="icu:68.1.0, alternate=search" __keywordBuildingHash="AlphaNum">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

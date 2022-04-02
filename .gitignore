@@ -1,0 +1,4 @@
+src/annotation.4dbase/userPreferences.*
+src/annotation.4dbase/Project/DerivedData/*
+HOST.4dbase/Project/DerivedData/*
+HOST.4dbase/userPreferences.*

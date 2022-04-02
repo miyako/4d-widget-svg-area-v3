@@ -1,0 +1,15 @@
+//%attributes = {"invisible":true}
+C_BOOLEAN:C305($1)
+
+OBJECT SET ENABLED:C1123(*; "Delete"; $1)
+OBJECT SET ENABLED:C1123(*; "Back"; $1)
+OBJECT SET ENABLED:C1123(*; "All"; $1)
+OBJECT SET ENABLED:C1123(*; "Copy"; $1)
+OBJECT SET ENABLED:C1123(*; "Paste"; $1)
+OBJECT SET ENABLED:C1123(*; "Cut"; $1)
+OBJECT SET ENABLED:C1123(*; "Duplicate"; $1)
+
+
+OBJECT SET ENABLED:C1123(*; "Bold"; $1)
+OBJECT SET ENABLED:C1123(*; "Italic"; $1)
+OBJECT SET ENABLED:C1123(*; "Underline"; $1)

@@ -1,0 +1,72 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Picture Popup Menu": {
+					"type": "picturePopup",
+					"top": 20,
+					"left": 10,
+					"width": 128,
+					"height": 128,
+					"columnCount": 16,
+					"rowCount": 16,
+					"picture": "/RESOURCES/images/colors.svg",
+					"borderStyle": "dotted",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 3,
+					"left": 20,
+					"width": 106,
+					"height": 13,
+					"dataSourceTypeHint": "number",
+					"class": "code",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "ビュー 1",
+		"defaultView": "ビュー 1",
+		"views": {
+			"ビュー 1": {},
+			"ビュー 2": {},
+			"ビュー 3": {},
+			"ビュー 4": {},
+			"ビュー 5": {},
+			"ビュー 6": {},
+			"ビュー 7": {},
+			"ビュー 8": {},
+			"ビュー 9": {}
+		}
+	}
+}

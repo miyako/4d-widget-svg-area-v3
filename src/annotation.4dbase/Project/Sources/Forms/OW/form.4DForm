@@ -1,0 +1,331 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 660,
+	"windowMinHeight": 270,
+	"rightMargin": 5,
+	"bottomMargin": 5,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onOutsideCall",
+		"onCloseBox",
+		"onUnload",
+		"onTimer",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Editor": {
+					"type": "subform",
+					"top": 85,
+					"left": 5,
+					"width": 650,
+					"height": 380,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "text",
+					"detailForm": "Editor",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/Editor.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Rotate": {
+					"type": "ruler",
+					"top": 12,
+					"left": 55,
+					"width": 106,
+					"height": 22,
+					"max": 360,
+					"graduationStep": 1,
+					"focusable": false,
+					"method": "ObjectMethods/Rotate.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Zoom": {
+					"type": "ruler",
+					"top": 50,
+					"left": 55,
+					"width": 106,
+					"height": 22,
+					"min": 10,
+					"max": 1500,
+					"graduationStep": 10,
+					"step": 10,
+					"focusable": false,
+					"method": "ObjectMethods/Zoom.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"XML": {
+					"type": "button",
+					"top": 5,
+					"left": 370,
+					"width": 48,
+					"height": 72,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "0",
+					"icon": "/RESOURCES/images/xml.png",
+					"style": "bevel",
+					"method": "ObjectMethods/XML.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"SET": {
+					"type": "button",
+					"top": 5,
+					"left": 190,
+					"width": 50,
+					"height": 54,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "a",
+					"icon": "/RESOURCES/images/photo-button.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/SET.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"PNG.A": {
+					"type": "button",
+					"top": 5,
+					"left": 420,
+					"width": 48,
+					"height": 72,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "1",
+					"icon": "/RESOURCES/images/png-a.png",
+					"style": "bevel",
+					"method": "ObjectMethods/PNG.A.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"PNG.B": {
+					"type": "button",
+					"top": 5,
+					"left": 470,
+					"width": 48,
+					"height": 72,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "2",
+					"icon": "/RESOURCES/images/png-b.png",
+					"style": "bevel",
+					"method": "ObjectMethods/PNG.B.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"SET1": {
+					"type": "button",
+					"top": 5,
+					"left": 250,
+					"width": 50,
+					"height": 54,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "b",
+					"icon": "/RESOURCES/images/photo-button.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/SET1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ToolZoom": {
+					"type": "button",
+					"top": 45,
+					"left": 5,
+					"width": 36,
+					"height": 36,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"icon": "/RESOURCES/images/zoom.png",
+					"style": "bevel",
+					"method": "ObjectMethods/ToolZoom.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ToolRotate": {
+					"type": "button",
+					"top": 5,
+					"left": 5,
+					"width": 36,
+					"height": 36,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"icon": "/RESOURCES/images/rotate-tool.png",
+					"style": "bevel",
+					"method": "ObjectMethods/ToolRotate.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"SET2": {
+					"type": "button",
+					"top": 5,
+					"left": 310,
+					"width": 50,
+					"height": 54,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "c",
+					"icon": "/RESOURCES/images/photo-button.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/SET2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ZoomLabel": {
+					"type": "input",
+					"top": 70,
+					"left": 117,
+					"width": 44,
+					"height": 16,
+					"dataSource": "String:C10(OBJECT Get pointer:C1124(Object named:K67:5; \"Zoom\")->; \"##0\")+\"%\"",
+					"class": "small",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"ZoomLabel1": {
+					"type": "input",
+					"top": 30,
+					"left": 117,
+					"width": 44,
+					"height": 16,
+					"dataSource": "String:C10(OBJECT Get pointer:C1124(Object named:K67:5; \"Rotate\")->; \"##0\")+Char:C90(0x00B0)",
+					"class": "small",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"PNG.B1": {
+					"type": "button",
+					"top": 5,
+					"left": 520,
+					"width": 48,
+					"height": 72,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "3",
+					"icon": "/RESOURCES/images/in.png",
+					"style": "bevel",
+					"method": "ObjectMethods/PNG.B1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"PNG.B2": {
+					"type": "button",
+					"top": 5,
+					"left": 570,
+					"width": 48,
+					"height": 72,
+					"fontFamily": "Hiragino Kaku Gothic ProN W3",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "4",
+					"icon": "/RESOURCES/images/out.png",
+					"style": "bevel",
+					"method": "ObjectMethods/PNG.B2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"Editor",
+				"Rotate",
+				"Zoom",
+				"ZoomLabel",
+				"ZoomLabel1"
+			]
+		}
+	],
+	"editor": {
+		"defaultView": "Button",
+		"activeView": "Fields",
+		"views": {
+			"Button": {},
+			"Size": {},
+			"Layout": {},
+			"Method": {},
+			"Fields": {
+				"objects": [
+					"Rotate",
+					"Zoom",
+					"XML",
+					"SET",
+					"PNG.A",
+					"PNG.B",
+					"SET1",
+					"ToolRotate",
+					"SET2",
+					"ZoomLabel",
+					"ZoomLabel1",
+					"PNG.B1",
+					"PNG.B2"
+				]
+			},
+			"Editor": {
+				"objects": [
+					"Editor"
+				]
+			},
+			"Paper": {},
+			"Source": {},
+			"Background": {}
+		}
+	}
+}

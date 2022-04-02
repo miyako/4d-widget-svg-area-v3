@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="7">
+	<com.4d>
+		<web>
+			<standalone_server>
+				<configuration automatic_session_management="true" session_mode="3"/>
+				<misc/>
+				<options>
+					<cache use_4d_web_cache="false"/>
+				</options>
+			</standalone_server>
+			<remote>
+				<configuration automatic_session_management="true" session_mode="3"/>
+				<misc/>
+				<options>
+					<cache use_4d_web_cache="false"/>
+				</options>
+			</remote>
+		</web>
+		<database>
+			<misc/>
+		</database>
+		<server>
+			<network>
+				<options use_legacy_network_layer="false"/>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<deployment>
+			<options/>
+		</deployment>
+		<compiler>
+			<options target="all"/>
+			<typage default_for_button="2" default_for_numeric="1"/>
+		</compiler>
+	</com.4d>
+</preferences>

@@ -1,0 +1,3 @@
+//%attributes = {"invisible":true}
+C_TEXT:C284(<>LABEL_FONT_NAME)
+C_BOOLEAN:C305(<>LABEL_FONT_EDITOR_VISIBLE)

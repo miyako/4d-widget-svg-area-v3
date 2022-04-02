@@ -1,0 +1,1 @@
+NEditor_SELECT_DEPLACE(0; 1)

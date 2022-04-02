@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HOST" uuid="794B35137B134A8E8451067D1F9C7B02" collation_locale="ja" consider_only_dead_chars_for_keywords="true">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra package_name="HOST" structure_file_name="HOST" data_file_path=":HOST.4DD" __stringCompHash="icu:68.1.0, alternate=search" __keywordBuildingHash="AlphaNum"/>
+</base>

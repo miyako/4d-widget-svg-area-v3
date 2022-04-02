@@ -1,0 +1,137 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onActivate",
+		"onUnload"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 222,
+					"height": 332,
+					"sizingY": "grow",
+					"stroke": "transparent"
+				},
+				"AutoFont": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Search": {
+					"type": "subform",
+					"top": 0,
+					"left": 0,
+					"width": 222,
+					"height": 30,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "text",
+					"detailForm": "Search",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/Search.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Fonts": {
+					"type": "list",
+					"top": 32,
+					"left": 0,
+					"width": 222,
+					"height": 300,
+					"sizingY": "grow",
+					"enterable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"method": "ObjectMethods/Fonts.4dm",
+					"events": [
+						"onLoad",
+						"onDoubleClick",
+						"onGettingFocus",
+						"onUnload",
+						"onSelectionChange"
+					]
+				},
+				"Return": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"action": "cancel",
+					"shortcutKey": "[Return]",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Enter": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "ビュー 1",
+		"defaultView": "ビュー 1",
+		"views": {
+			"ビュー 1": {},
+			"ビュー 2": {},
+			"ビュー 3": {},
+			"ビュー 4": {},
+			"ビュー 5": {},
+			"ビュー 6": {},
+			"ビュー 7": {},
+			"ビュー 8": {},
+			"ビュー 9": {}
+		}
+	}
+}
